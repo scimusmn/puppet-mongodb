@@ -7,6 +7,7 @@ class mongodb::repo (
   $proxy_username = undef,
   $proxy_password = undef,
 ) inherits mongodb::params {
+  notice('-----General note-----')
   case $::osfamily {
     'RedHat', 'Linux': {
       if $version != undef {

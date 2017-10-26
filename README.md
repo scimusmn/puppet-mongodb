@@ -1,4 +1,4 @@
-# SMM Debug version
+# SMM Debug version 02
 
 # mongodb puppet module
 
