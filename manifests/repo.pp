@@ -40,6 +40,8 @@ class mongodb::repo (
     }
 
     'Debian': {
+      notice("In Debian")
+
       if ($repo_location != undef){
         $location = $repo_location
       }
